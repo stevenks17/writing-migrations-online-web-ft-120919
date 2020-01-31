@@ -1,4 +1,4 @@
-ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.1]
+ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.2]
 
   def change
     change_column :students, :birthdate, :datetime
